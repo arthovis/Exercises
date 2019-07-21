@@ -53,10 +53,5 @@ public class DemoMap {
             int maxSpeed = entry.getValue();
             System.out.printf("%s : %s\n", carName, maxSpeed);
         }
-
-
     }
-
-
-
 }
