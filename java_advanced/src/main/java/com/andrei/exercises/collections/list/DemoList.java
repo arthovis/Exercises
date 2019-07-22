@@ -5,6 +5,7 @@ import com.andrei.exercises.collections.CollectionsPrinter;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Optional;
 
 public class DemoList {
     public static void main(String[] args) {

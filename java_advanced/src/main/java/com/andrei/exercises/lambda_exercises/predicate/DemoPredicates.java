@@ -21,6 +21,7 @@ public class DemoPredicates {
         numbers.stream()
                 .filter(numbersLessThan2Predicate)
                 .filter(number -> number < 2)
-                .collect(Collectors.toList());
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
     }
 }
